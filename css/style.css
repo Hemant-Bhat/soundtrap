@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url('../images/bg.jpg') no-repeat;
+    background-size: cover;
+}
+.title h1{
+    font-family: 'Waterfall', cursive;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.container{
+    width: 100%;
+    height: calc(100vh - 10vh );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.keys-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.key{
+    width: 80px;
+    height: 80px;
+    border: 3px solid #ffffff;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    transition: .09s;
+}
+.key.playing{
+    color: rgb(236, 193, 0);
+    transform: scale(1.1);
+    border: 5px solid rgb(236, 193, 0);
+    box-shadow: inset 0 0 20px rgb(0, 0, 0);
+}
+kbd{
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.sound-name{
+    font-size: 0.789rem;
+    color: rgb(236, 193, 0);
+    font-weight: 600;
+}
+footer{
+    color: rgb(190, 190, 190);
+    text-align: center;
+}
+footer span{
+    margin: 10px;
+}
+footer span a{
+    color: #fff;
+}
+
+
+/* Social Icons */
+.social-icon{
+    text-align: center;
+    padding-top: 20px;
+    height: 10vh;
+}
+.social-icon i{
+    color: white;
+    font-size: 2rem;
+    margin: 0 5px;
+}
